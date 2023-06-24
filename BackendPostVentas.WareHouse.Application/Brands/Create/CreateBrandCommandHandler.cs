@@ -1,6 +1,6 @@
 ﻿namespace BackendPostVentas.WareHouse.Application.Brands.Create
 {
-    internal sealed class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, Unit>
+    internal sealed class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, ErrorOr<Unit>>
     {
         private readonly IBrandRepository _brandRepository;
         private readonly IUnitOfWork _unitOfWork;
@@ -14,7 +14,7 @@
         }
 
        
-        public async Task<Unit> Handle(CreateBrandCommand request, CancellationToken cancellationToken)
+        public async Task<ErrorOr<Unit>> Handle(CreateBrandCommand request, CancellationToken cancellationToken)
         {
             var brand = new Brand(
                 new BrandId(Guid.NewGuid()),

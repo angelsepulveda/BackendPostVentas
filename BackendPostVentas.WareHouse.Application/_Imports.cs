@@ -4,3 +4,4 @@ global using System.Reflection;
 global using MediatR;
 global using BackendPostVentas.Shared.Domain.Primitives;
 global using BackendPostVentas.WareHouse.Domain.Brands;
+global using ErrorOr;

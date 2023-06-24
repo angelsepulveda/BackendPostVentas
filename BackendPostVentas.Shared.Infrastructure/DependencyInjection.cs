@@ -1,11 +1,4 @@
-﻿using BackendPostVentas.Shared.Application.Data;
-using BackendPostVentas.Shared.Domain.Primitives;
-using BackendPostVentas.Shared.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace BackendPostVentas.Shared.Infrastructure
+﻿namespace BackendPostVentas.Shared.Infrastructure
 {
     public static class DependencyInjection
     {

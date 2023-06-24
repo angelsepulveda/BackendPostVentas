@@ -1,0 +1,1 @@
+﻿global using BackendPostVentas.Shared.Domain.Primitives;

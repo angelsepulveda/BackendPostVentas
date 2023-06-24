@@ -1,8 +1,4 @@
-﻿using BackendPostVentas.WareHouse.Domain.Brands;
-using BackendPostVentas.WareHouse.Infrastructure.Brands.Persistence.Repositories;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace BackendPostVentas.WareHouse.Infrastructure
+﻿namespace BackendPostVentas.WareHouse.Infrastructure
 {
     public static class DependencyInjection
     {

@@ -1,8 +1,4 @@
-﻿using BackendPostVentas.WareHouse.Domain.Brands;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace BackendPostVentas.Shared.Infrastructure.Persistence.Configuration.WareHouse
+﻿namespace BackendPostVentas.Shared.Infrastructure.Persistence.Configuration.WareHouse
 {
     public class BrandConfiguration : IEntityTypeConfiguration<Brand>
     {

@@ -1,7 +1,4 @@
-﻿using BackendPostVentas.WareHouse.Domain.Brands;
-using Microsoft.EntityFrameworkCore;
-
-namespace BackendPostVentas.Shared.Application.Data
+﻿namespace BackendPostVentas.Shared.Application.Data
 {
     public interface IApplicationDbContext
     {

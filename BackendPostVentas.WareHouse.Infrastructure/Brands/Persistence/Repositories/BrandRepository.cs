@@ -1,8 +1,4 @@
-﻿using BackendPostVentas.Shared.Infrastructure.Persistence;
-using BackendPostVentas.WareHouse.Domain.Brands;
-using Microsoft.EntityFrameworkCore;
-
-namespace BackendPostVentas.WareHouse.Infrastructure.Brands.Persistence.Repositories
+﻿namespace BackendPostVentas.WareHouse.Infrastructure.Brands.Persistence.Repositories
 {
     public class BrandRepository : IBrandRepository
     {

@@ -1,10 +1,4 @@
-﻿using BackendPostVentas.Shared.Application.Data;
-using BackendPostVentas.Shared.Domain.Primitives;
-using BackendPostVentas.WareHouse.Domain.Brands;
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-
-namespace BackendPostVentas.Shared.Infrastructure.Persistence
+﻿namespace BackendPostVentas.Shared.Infrastructure.Persistence
 {
     public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWork
     {

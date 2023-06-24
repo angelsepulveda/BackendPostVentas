@@ -1,0 +1,9 @@
+﻿global using BackendPostVentas.WareHouse.Domain.Brands;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using BackendPostVentas.Shared.Application.Data;
+global using BackendPostVentas.Shared.Domain.Primitives;
+global using BackendPostVentas.Shared.Infrastructure.Persistence;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using MediatR;

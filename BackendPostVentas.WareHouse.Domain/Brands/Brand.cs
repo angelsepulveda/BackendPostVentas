@@ -1,4 +1,4 @@
-﻿using BackendPostVentas.Shared.Domain.Primitives;
+﻿
 
 namespace BackendPostVentas.WareHouse.Domain.Brands
 {

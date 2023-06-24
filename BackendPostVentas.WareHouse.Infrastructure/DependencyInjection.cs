@@ -4,8 +4,7 @@
     {
         public static IServiceCollection AddWareHouseInfrastructure(this IServiceCollection services)
         {
-            services.AddScoped<IBrandRepository, BrandRepository>();
-
+           
             services.AddWareHousePersistence();
 
             return services;
@@ -13,6 +12,8 @@
 
         private static IServiceCollection AddWareHousePersistence(this IServiceCollection services)
         {
+            services.AddScoped<IBrandRepository, BrandRepository>();
+
             return services;
         }
     }

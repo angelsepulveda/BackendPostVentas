@@ -1,8 +1,4 @@
-﻿using BackendPostVentas.Shared.Domain.Primitives;
-using BackendPostVentas.WareHouse.Domain.Brands;
-using MediatR;
-
-namespace BackendPostVentas.WareHouse.Application.Brands.Create
+﻿namespace BackendPostVentas.WareHouse.Application.Brands.Create
 {
     internal sealed class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, Unit>
     {

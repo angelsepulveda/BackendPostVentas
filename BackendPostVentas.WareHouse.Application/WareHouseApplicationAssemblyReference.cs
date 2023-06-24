@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace BackendPostVentas.WareHouse.Application
+﻿namespace BackendPostVentas.WareHouse.Application
 {
     public class WareHouseApplicationAssemblyReference
     {

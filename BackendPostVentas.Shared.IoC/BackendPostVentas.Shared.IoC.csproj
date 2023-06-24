@@ -8,11 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BackendPostVentas.Shared.Infrastructure\BackendPostVentas.Shared.Infrastructure.csproj" />
+    <ProjectReference Include="..\BackendPostVentas.WareHouse.Application\BackendPostVentas.WareHouse.Application.csproj" />
     <ProjectReference Include="..\BackendPostVentas.WareHouse.Infrastructure\BackendPostVentas.WareHouse.Infrastructure.csproj" />
   </ItemGroup>
 

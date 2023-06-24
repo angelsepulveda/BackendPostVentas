@@ -1,7 +1,4 @@
-﻿using FluentValidation;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace BackendPostVentas.WareHouse.Application
+﻿namespace BackendPostVentas.WareHouse.Application
 {
     public static class DependencyInjection
     {

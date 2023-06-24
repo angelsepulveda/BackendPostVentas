@@ -1,4 +1,4 @@
-﻿using MediatR;
+﻿
 
 namespace BackendPostVentas.WareHouse.Application.Brands.Create
 {

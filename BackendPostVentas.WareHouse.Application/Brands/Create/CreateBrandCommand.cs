@@ -3,5 +3,8 @@
     public record CreateBrandCommand(
         string Name,
         string Description
-    ) : IRequest<ErrorOr<Unit>>;
+    ) : IRequest<ErrorOr<Unit>>
+    {
+       
+    }
 }

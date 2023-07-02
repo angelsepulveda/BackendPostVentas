@@ -1,4 +1,6 @@
-﻿namespace BackendPostVentas.WebAPI
+﻿using BackendPostVentas.WebAPI.Middlewares;
+
+namespace BackendPostVentas.WebAPI
 {
     public static class DependencyInjection
     {
@@ -7,6 +9,7 @@
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+            services.AddTransient<GlobalExceptionHandlingMiddleware>();
             
             return services;
         }

@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BackendPostVentas.Shared.Application\BackendPostVentas.Shared.Application.csproj" />
     <ProjectReference Include="..\BackendPostVentas.Shared.Infrastructure\BackendPostVentas.Shared.Infrastructure.csproj" />
     <ProjectReference Include="..\BackendPostVentas.WareHouse.Application\BackendPostVentas.WareHouse.Application.csproj" />
     <ProjectReference Include="..\BackendPostVentas.WareHouse.Infrastructure\BackendPostVentas.WareHouse.Infrastructure.csproj" />

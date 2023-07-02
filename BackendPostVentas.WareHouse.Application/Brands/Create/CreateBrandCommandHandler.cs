@@ -1,6 +1,6 @@
 ﻿namespace BackendPostVentas.WareHouse.Application.Brands.Create
 {
-    internal sealed class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, ErrorOr<Unit>>
+    public sealed class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, ErrorOr<Unit>>
     {
         private readonly IBrandRepository _brandRepository;
         private readonly IUnitOfWork _unitOfWork;
